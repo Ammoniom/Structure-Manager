@@ -1,0 +1,35 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Structure Manager behavior pack",
+        "name": "Structure Manager",
+        "uuid": "9401e778-5d16-43ee-a1cc-dd9fac7b954b",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Structure Manager Script",
+            "type": "script",
+            "language": "Javascript",
+            "entry": "scripts/main.js",
+            "uuid": "debcb592-b10e-480d-bfe8-b33c060f452d",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.1.0"
+        }
+    ],
+    "metadata": {
+        "authors": ["Ammonia_"],
+        "license": "MIT",
+        "url": "http://www.contoso.com"
+    }
+}
